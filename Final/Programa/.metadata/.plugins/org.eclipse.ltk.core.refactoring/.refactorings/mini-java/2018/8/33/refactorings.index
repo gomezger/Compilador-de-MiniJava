@@ -1,0 +1,7 @@
+1534623168615	Move compilation unit
+1534623477481	Encapsulate field 'tipo'
+1534623483190	Encapsulate field 'lexema'
+1534623489733	Encapsulate field 'linea'
+1534624172305	Encapsulate field 'fuente'
+1534690947528	Copy compilation unit
+1534692087747	Encapsulate field 'lista'

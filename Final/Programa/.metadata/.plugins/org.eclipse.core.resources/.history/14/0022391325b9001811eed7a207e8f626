@@ -1,0 +1,15 @@
+public class Tester {
+	private int test;
+	private int total_test;
+	
+	
+	
+	public Tester(int cant){
+		this.total_test = cant;
+		
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,22 @@
+1)Preguntar en estado q1. Si tengo 5648b, es un numero valido? porque cdo en AL vea que b no es digito, retorna el token.
+Por lo cual si tenes 1233variable, crea token 1233 y ID variable
+
+2) los string y char se guardan sin comillas? dejar char y sacar string
+
+3) que caracteres son validos? ascii
+
+4) como manejamos el fin de linea. SACAR LA DOBLE LISTA.
+
+5) como manejamos el fin de archivo. READLINE DA NULL. AGREGAR TOKEN FIN DE ARCHIVO.
+
+6)  
+
+24/08
+
+1) En los String, si pongo un enter (apreto la tecla), deberia tirar un error lexico? o no tomar el enter?
+
+2) un enter es un 10 o un 13? linux vs windows (creo que ya esta)
+
+3) ademas de los comentarios multilinea, hay algo que dure mas de un renglon? 
+
+4) hay arreglos en mini java? 	int[] variable = new  int[8]; NO

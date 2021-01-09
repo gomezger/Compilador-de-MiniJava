@@ -1,0 +1,52 @@
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class Tester {
+	
+	private int total_test;
+	
+	
+	
+	public Tester(int cant){
+		this.total_test = cant;
+		
+		this.testear(1);	
+		
+	}
+	
+	
+	public void testear(int empezar){
+		
+		
+		for(int i = empezar; i<this.total_test; i++){
+			try {
+	        	//creamos el analizador lexico
+				AnalizadorLexico alex = new AnalizadorLexico(new Archivo("test/D/"+i+".java"));
+				try {
+					AnalizadorSintactico asin = new AnalizadorSintactico(alex);
+				} catch (ExceptionLexico e) {
+					System.out.println(e.getMessage());
+				} catch (ExceptionSintactico e) {					
+					
+					System.out.println("Test n* "+i+": "+e.getMessage());
+					System.out.println("------------------------");
+					
+					testear(i++);
+					
+				}
+				
+
+				
+				System.out.println("Test n* "+i+": no hubo errores");
+				System.out.println("------------------------");
+					
+			} catch (FileNotFoundException e) {
+				System.out.println(e.getMessage());
+			} catch (IOException e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
+	
+	
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="private void" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="public void"/>
+			<item value="&lt;expresion&gt;"/>
+			<item value="::= &lt;expresion&gt;"/>
+			<item value="argsActuales() t"/>
+			<item value="args"/>
+			<item value="Se esperaba &apos;("/>
+			<item value="f4() t"/>
+			<item value="&quot;q52&quot;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="private void"/>
+			<item value="&quot;, token.getColumna(), to"/>
+			<item value=" &quot;, token.getColumna(), tok"/>
+			<item value="Sugerencia: "/>
+			<item value="ExceptionSintactico(token.getLexema(),&quot;"/>
+			<item value="token.getColumna(), token.getLinea()"/>
+			<item value="IdClase"/>
+			<item value=",this.columna_lexico);"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="734" key="DIALOG_X_ORIGIN"/>
+		<item value="286" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

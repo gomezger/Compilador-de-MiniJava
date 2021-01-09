@@ -1,0 +1,11 @@
+1. COMO MANEJO FILAS Y COLUMNAS EN LAS ENTRADAS?
+2. OBJECT TIENE FILA Y COLUMNA? tambn ver contrcutor por defecto
+3. Object extiende a null? OK
+4. TipoVoid? extiende a Tipo? o TipoMetodo que es? DEJAR COMO ESTA
+5. EntradaConPArams es legal? SI
+
+
+
+
+1. GUARDAR DONDE ESTA EL MAIN
+2. getNombre() sobrecargar a getNombre(int a), FALLA.

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;NBloque.java&apos; to &apos;etapa4AST.NBloque.java&apos;&#x0D;&#x0A;- Original project: &apos;mini-java&apos;&#x0D;&#x0A;- Destination element: &apos;etapa4AST.NBloque.java&apos;&#x0D;&#x0A;- Original element: &apos;etapa4AST.NBloque.java&apos;" description="Copy compilation unit" destination="/src&lt;etapa4AST{NBloque.java" element1="/src&lt;etapa4AST{NBloque.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1541442964379" units="1" version="1.0"/>
+</session>

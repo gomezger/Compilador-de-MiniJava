@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="excepciones.ExceptionLexico"/>
+<fullyQualifiedTypeName name="excepciones.CharInesperado"/>
+<fullyQualifiedTypeName name="excepciones.IntFormato"/>
+<fullyQualifiedTypeName name="excepciones.CharAscii"/>
+<fullyQualifiedTypeName name="excepciones.CharFormat"/>
+<fullyQualifiedTypeName name="lexico.OperadorAnd"/>
+<fullyQualifiedTypeName name="excepciones.OperadorOR"/>
+<fullyQualifiedTypeName name="excepciones.StringAbierto"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,58 @@
+package etapa4AST;
+
+import etapa1.Principal;
+import etapa1.Token;
+import etapa3Exp.ExceptionSemantico;
+import etapa5.Generador;
+
+public class NIfConElse extends NIf{
+	//atributos
+	protected NSentencia elsee;
+	
+	//constrcutor
+	public NIfConElse(Token token, NExpresion cond, NSentencia then, NSentencia elsee){
+		super(token,cond,then);
+		this.elsee = elsee;
+	}
+
+	//getters
+	public NSentencia getElse() {
+		return elsee;
+	}
+	
+	
+
+	public void imprimir(int n){
+		tabs(n); 
+		System.out.println("If Con Else");
+		cond.imprimir(n+1);
+		then.imprimir(n+1);
+		elsee.imprimir(n+1);
+	}
+
+
+	//chequear
+	public void chequear() throws ExceptionSemantico{
+		super.chequear();
+		elsee.chequear();		
+	}
+
+
+	public void generar() {
+		super.generar();
+		
+		//termino el then y salto al fin del if para no hacer el else
+		Principal.gen.gen("JUMP finIf_"+Generador.cant_if, "");		
+		
+		//empieza el else
+		Principal.gen.gen("else_"+Generador.cant_if+":", "Empieza el codigo del else_"+Generador.cant_if);
+		elsee.generar();
+		
+		//fin de if
+		Principal.gen.gen("finIf_"+Generador.cant_if+": NOP", "Termina el if_"+Generador.cant_if);
+		
+	}
+	
+
+
+}
